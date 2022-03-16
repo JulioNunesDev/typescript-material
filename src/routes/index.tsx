@@ -4,6 +4,7 @@ import { useAppThemeContext } from '../shared/contexts/ThemeContexts'
 export const AppRoutes =()=>{
     const {toggleTheme} = useAppThemeContext()
     return(
+        
     <Routes>
        
         <Route path='/pagina-inicial' element={<Button variant='contained' color='primary' onClick={toggleTheme}>Toggle Theme</Button>}/>
